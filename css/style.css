@@ -1,0 +1,296 @@
+.top-section{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f242a+0,36567f+100 */
+	background: #1f242a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #1f242a 0%, #36567f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #1f242a 0%,#36567f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #1f242a 0%,#36567f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f242a', endColorstr='#36567f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.logo-img{
+	float: left;
+}
+
+.top-section .navbar-nav{
+	float: right;
+	margin-top: 40px;
+}
+
+.top-section .navbar-nav li a{
+	color: white;
+	font-family: 'BoosterNextFY Regular';
+}
+
+.top-section .navbar-nav li a:hover{
+	background-color: #25c5da;
+	border-radius: 3px;
+}
+
+.top-section .navbar-nav li.active a{
+	background-color: #25c5da;
+	border-radius: 3px;
+}
+
+.top-section .navbar-logo{
+    padding: initial;
+    line-height: initial;
+    height: auto;
+    margin-top: 40px;
+	position: relative;
+	display: block;
+}
+
+.header-image{
+	width: 80%;
+	position: relative;
+	display: block;
+	margin: 0px auto;
+}
+
+.header-title{
+	text-transform: uppercase;
+    color: white;
+    text-align: center;
+	font-family: 'BoosterNextFY Medium';
+	font-size: 38px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+.header-sub-title{
+	text-align: center;
+    width: 65%;
+    color: white;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    font-size: 24px;
+    font-weight: 100;
+	font-family: 'BoosterNextFY Regular';
+	margin-top: 25px;
+}
+
+.top-section-block{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.line-object{
+    width: 80%;
+    position: relative;
+    display: block;
+    border-bottom: solid 1px #4b5a6e;
+    height: 1px;
+    margin: 100px auto 100px auto;
+}
+
+.in-de-section{
+	width: 80%;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+}
+
+.half-area{
+	position: relative;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.in-de-title{
+	color: white;
+	font-family: 'BoosterNextFY Bold';
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.in-de-mark{	
+	width: 32px;
+	height: 32px;
+}
+
+.in-de-content{	
+	padding-left: 15px;
+	color: white;
+	font-family: 'BoosterNextFY Regular';
+	font-size: 18px;
+	padding-right: 100px;
+}
+
+.in-de-block{	
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+    display: table-row;
+}
+
+.in-de-block div{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+	padding-bottom: 30px;
+}
+
+.feature-section{
+	position: relative;
+	display: block;
+	padding: 100px 0px;
+
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;	
+}
+
+.flexibility-box{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25c7d7+0,25d8b5+100 */
+	background: #25c7d7; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #25c7d7 0%, #25d8b5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #25c7d7 0%,#25d8b5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #25c7d7 0%,#25d8b5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25c7d7', endColorstr='#25d8b5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.apitech-box{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4466b+0,f07f52+100 */
+	background: #f4466b; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #f4466b 0%, #f07f52 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #f4466b 0%,#f07f52 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #f4466b 0%,#f07f52 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4466b', endColorstr='#f07f52',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.webconsole-box{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5caeed+0,9580ff+100 */
+	background: #5caeed; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #5caeed 0%, #9580ff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #5caeed 0%,#9580ff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #5caeed 0%,#9580ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5caeed', endColorstr='#9580ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.flexibility-box .category-item.active{
+	color: #25c7d7;
+}
+.apitech-box .category-item.active{
+	color: #f4466b;
+}
+.webconsole-box .category-item.active{
+	color: #5caeed;
+}
+
+.category-item {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    display: block;
+    line-height: 58px;
+    text-align: center;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;		
+}
+
+.feature-category{	
+    width: 90%;
+    position: relative;
+    display: block;
+    height: 58px;
+    margin: 58px auto;
+    border: solid 1px white;
+	color: white;
+	font-family: 'BoosterNextFY Bold';
+	font-size: 24px;
+	overflow: hidden;
+}
+
+.middle-cat{
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.category-item.active{
+	background: white;
+	color: #25c7d7;
+}
+
+.feature-content{
+	position: relative;
+	display: block;
+}
+
+.feature-content > .container > div{
+    position: relative;
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.feature-content-image img{
+	max-width: 90%;
+}
+
+.feature-content-data{	
+	padding-right: 20%;
+}
+
+.content-data-title{
+	/*margin-top: 42px;*/
+	color: white;
+	font-family: 'BoosterNextFY Light';
+	font-size: 48px;
+	margin-bottom: 30px;
+}
+
+.content-data-block{	
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+    display: table-row;
+}
+
+.content-data-block div{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+	padding-bottom: 30px;
+}
+
+.content-data-value{	
+	padding-left: 15px;
+	color: white;
+	font-family: 'BoosterNextFY Regular';
+	font-size: 18px;
+}
+
+.nav-action{
+    position: absolute;
+    width: 100%;
+    height: 140px;
+    top: 50%;
+    margin-top: -70px;
+}
+
+.prev-feature{
+    position: relative;
+    display: block;
+    float: left;
+    width: 70px;
+    height: 140px;
+    background: url('../images/slider_arrow_left.svg');
+    cursor: pointer;
+}
+
+.next-feature{
+    position: relative;
+    display: block;
+    float: right;
+    width: 70px;
+    height: 140px;
+    background: url('../images/slider_arrow_right.svg');    
+    cursor: pointer;
+}

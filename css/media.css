@@ -1,0 +1,21 @@
+@media (max-width: 767px) {
+	.navbar-toggle{
+		margin-top: 40px;
+	}
+
+	.navbar-toggle .icon-bar{
+		background: #25c5da;
+	}
+
+	.top-section .navbar-nav{
+		margin-top: 0px;
+		float: initial;
+	}
+	.logo-img{
+		margin-left: 25px;
+	}
+
+	.half-area{
+		width: 100%;
+	}
+}

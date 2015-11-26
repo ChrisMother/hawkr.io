@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'BoosterNextFY Black';
+  src: url('../BoosterNext/WEB/Black/BoosterNextFY-Black.eot?#iefix') format('embedded-opentype');
+  src: url('../BoosterNext/WEB/Black/BoosterNextFY-Black.woff') format('woff'), url('../BoosterNext/WEB/Black/BoosterNextFY-Black.ttf') format('truetype'),url('../BoosterNext/WEB/Black/BoosterNextFY-Black.svg#BoosterNextFY-Black') format('svg');
+}
+
+@font-face {
+  font-family: 'BoosterNextFY Bold';
+  src: url('../BoosterNext/WEB/Bold/BoosterNextFY-Bold.eot?#iefix') format('embedded-opentype');
+  src: url('../BoosterNext/WEB/Bold/BoosterNextFY-Bold.woff') format('woff'),url('../BoosterNext/WEB/Bold/BoosterNextFY-Bold.ttf') format('truetype'),url('../BoosterNext/WEB/Bold/BoosterNextFY-Bold.svg#BoosterNextFY-Black') format('svg');
+}
+
+@font-face {
+  font-family: 'BoosterNextFY Light';
+  src: url('../BoosterNext/WEB/Light/BoosterNextFY-Light.eot?#iefix') format('embedded-opentype');
+  src: url('../BoosterNext/WEB/Light/BoosterNextFY-Light.woff') format('woff'), url('../BoosterNext/WEB/Light/BoosterNextFY-Light.ttf') format('truetype'),url('../BoosterNext/WEB/Light/BoosterNextFY-Light.svg#BoosterNextFY-Black') format('svg');
+}
+
+@font-face {
+  font-family: 'BoosterNextFY Medium';
+  src: url('../BoosterNext/WEB/Medium/BoosterNextFY-Medium.eot?#iefix') format('embedded-opentype');
+  src: url('../BoosterNext/WEB/Medium/BoosterNextFY-Medium.woff') format('woff'),url('../BoosterNext/WEB/Medium/BoosterNextFY-Medium.ttf') format('truetype'),url('../BoosterNext/WEB/Medium/BoosterNextFY-Medium.svg#BoosterNextFY-Black') format('svg');
+}
+
+@font-face {
+  font-family: 'BoosterNextFY Regular';
+  src: url('../BoosterNext/WEB/Regular/BoosterNextFY-Regular.eot?#iefix') format('embedded-opentype');
+  src: url('../BoosterNext/WEB/Regular/BoosterNextFY-Regular.woff') format('woff'),url('../BoosterNext/WEB/Regular/BoosterNextFY-Regular.ttf') format('truetype'),url('../BoosterNext/WEB/Regular/BoosterNextFY-Regular.svg#BoosterNextFY-Black') format('svg');
+}
+
+@font-face {
+  font-family: 'BoosterNextFY Thin';
+  src: url('../BoosterNext/WEB/Thin/BoosterNextFY-Thin.eot?#iefix') format('embedded-opentype');
+  src: url('../BoosterNext/WEB/Thin/BoosterNextFY-Thin.woff') format('woff'),url('../BoosterNext/WEB/Thin/BoosterNextFY-Thin.ttf') format('truetype'),url('../BoosterNext/WEB/Thin/BoosterNextFY-Thin.svg#BoosterNextFY-Black') format('svg');
+}

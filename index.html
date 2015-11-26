@@ -1,23 +1,303 @@
-<html>
-<title>Hawkr - Vending Software and Technology Specialists</title>
-<head>
-<style>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+<meta name="author" content="Iwan Asman">
 
-body {
-    background-color: black;
-}
-.centered {
-  position: fixed;
-  top: 30%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
-}
-</style>
+<title>Responsive Web Design</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<!-- Default Theme -->
+<link rel="stylesheet" href="css/owl.theme.css">
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/media.css" rel="stylesheet">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+<![endif]-->
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </head>
 <body>
-<div class="centered">
-    <img src="coming_soon.png" alt="" />
-</div>
+	<div class="top-section">
+		<nav class="navbar">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-logo" href="#">
+				<img src="images/logo.png" class="logo-img">
+			  </a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+				<li><a href="#">FEATURES</a></li>
+				<li><a href="#about">TECH</a></li>
+				<li><a href="#contact">CLIENTS</a></li>
+				<li class="active"><a href="#contact">CONTACT US</a></li>
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</nav>
+		<div class="container">
+			<div class="top-section-block">
+				<div class="row">
+					<div class="col-md-12">
+						<img src="images/Header_Image_Retina.png" class="header-image"/>
+						<h1 class="header-title">advanced vending machine technonlogy</h1>
+						<div class="header-sub-title">We enable vending manufacturers and operators to take full advantage of web connected machines</div>
+						<div class="line-object"/>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="in-de-section">
+							<div class="half-area">
+								<div class="in-de-title">Increase revenue</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Generate revenue from touchscreen advertising
+									</div>
+								</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Gain customers who use Chip, Contactless & Apple Pay
+									</div>
+								</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Product Optimisation with advanced sales data
+									</div>
+								</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Gain an advantage over your competitors with a modern machine features
+									</div>
+								</div>
+							</div>
+							<div class="half-area">
+								<div class="in-de-title">Decrease operation costs</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Print off or view machine stocking requirements easily
+									</div>
+								</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Go cashless with your existing and new machines
+									</div>
+								</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Pay no license fee for Windows
+									</div>
+								</div>
+								<div class="in-de-block">
+									<div><img src="images/tick_bullet.svg" class="in-de-mark"/></div>
+									<div class="in-de-content">
+										Remote control of all machine functions
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="feature-section flexibility-box">
+		<div class="container">
+			<h1 class="header-title">features</h1>
+			<div class="feature-category">
+				<div class="category-item active" onclick="gotoFeature(0)">Flexibility</div>
+				<div class="category-item middle-cat" onclick="gotoFeature(1)">API Thechnology</div>
+				<div class="category-item" onclick="gotoFeature(2)">Web Console</div>	
+			</div>
+		</div>
+		<div class="feature-content clearfix">
+			<div class="nav-action">
+				<div class="prev-feature" onclick="prevFeature()">
+				</div>
+				<div class="next-feature" onclick="nextFeature()"></div>
+			</div>		
+			<div class="container">
+				<div class="clearfix" id="feature-slider">
+					<div class="wrap">
+						<div class="half-area clearfix">
+							<div class="feature-content-data">
+								<div class="content-data-title">Flexibility</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Can be used with any combination of machine, payment unit and order interface.
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Built for scale, <b>100,000s</b> of machines can be supported easily.
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Easy integration - add individual or groups of machines seamlessly
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Remove the need for Windows and associated license fee's for each machine
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="half-area clearfix">
+							<div class="feature-content-image">
+								<img src="images/Flexibility_Image.svg"/>
+							</div>
+						</div>
+					</div>
+					<div class="wrap">
+						<div class="half-area clearfix">
+							<div class="feature-content-data">
+								<div class="content-data-title">API Thechnology</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Real time, clean data delivery to your own telemetry platform or ours
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Instant remote vending
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Remote resets, channel shutdowns and other machine functions
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Add new features and hardware easily into our modular design
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Integrate social media and other API's easily
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Individual or group machine control
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="half-area clearfix">
+							<div class="feature-content-image">
+								<img src="images/Flexibility_Image.svg"/>
+							</div>
+						</div>
+					</div>
+					<div class="wrap">
+						<div class="half-area clearfix">
+							<div class="feature-content-data">
+								<div class="content-data-title">Web Console</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Advanced reporting and analytics
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Product data and images - nutritionals, allergens and more
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Advertisement syndication - generate revenue from your order interface
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Low stock alerts
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Stock management - instantly print machine stocking requirements
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Machine health notifications for failed vends, connectivity issues, vandalism and more
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Global, group and individual bespoke settings
+									</div>
+								</div>
+								<div class="content-data-block">
+									<div><img src="images/arrow_white_bullet.svg" class="arrow-white-image"/></div>
+									<div class="content-data-value">
+										Accessible on any web connected device
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="half-area clearfix">
+							<div class="feature-content-image">
+								<img src="images/Flexibility_Image.svg"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
