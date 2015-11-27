@@ -196,7 +196,7 @@
 }
 
 .feature-category{	
-    width: 90%;
+    width: 95%;
     position: relative;
     display: block;
     height: 58px;
@@ -226,12 +226,12 @@
 .feature-content > .container > div{
     position: relative;
     display: block;
-    width: 90%;
+    width: 95%;
     margin: 0px auto;
 }
 
 .feature-content-image img{
-	max-width: 90%;
+	max-width: 95%;
 }
 
 .feature-content-data{	
@@ -293,4 +293,237 @@
     height: 140px;
     background: url('../images/slider_arrow_right.svg');    
     cursor: pointer;
+}
+
+.clients-section{
+	background: white;
+	padding: 100px 0px;
+}
+
+.clients-section .header-title{
+	color: #000;
+}
+
+.clients-section .header-sub-title{
+	color: #616569;
+}
+
+.clients-section .content-data-title{
+	color: #000;
+}
+
+.clients-section .content-data-value{
+	color: #616569;
+}
+
+.clients-section .clients-content-data{
+	padding-right: 80px;
+}
+
+.clients-content{
+    width: 95%;
+    position: relative;
+    margin: 80px auto 0px auto;	
+}
+
+.clients-content-video{
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	width: 80%;
+}
+
+.clients-content-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.clients-testimonial{
+	height: auto;
+    padding: 45px;
+    box-sizing: border-box;
+    border: solid 1px #eaeaea;
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: 80px auto;
+}
+
+.testimonial-quote-logo {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+
+.testimonial-contents {
+    position: relative;
+    display: table-cell;
+    width: calc(100% - 115px);
+    padding-left: 30px;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.clients-testimonial .wrap{
+	position: relative;
+	width: 100%;
+	display: table-row;
+	font-family: 'BoosterNextFY Regular';
+	font-size: 22px;
+	color: #616569;
+}
+
+span.tm-author {
+    color: #000;
+    font-weight: bold;
+}
+
+a.tm-link {
+    margin-left: 25px;
+    font-weight: bold;
+    color: #25c5da;
+}
+
+.clients-logos{
+	width: 95%;
+	position: relative;
+	display: block;
+	margin: 0px auto;
+}
+
+.clients-logos div{
+	position: relative;
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.clients-logos div img{
+    max-height: 100px;
+    max-width: 80%;
+}
+
+.clients-logos{
+	position: relative;
+	width: 95%;
+	display: block;
+	margin: 0px auto;
+}
+
+.clients-logos .wrap{
+    width: 100%;
+    position: relative;
+    display: table-row;
+    margin: 0px auto;
+}
+
+.technology-section{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f242a+0,36567f+100 */
+	background: #1f242a; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #1f242a 0%, #36567f 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #1f242a 0%,#36567f 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #1f242a 0%,#36567f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f242a', endColorstr='#36567f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	padding: 60px 0px 100px 0px;	
+	position: relative;
+	display: block;
+}
+
+.technology-section .container > .wrap{
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    border-bottom: solid 1px #616569;
+    margin-bottom: 80px;
+}
+
+.technology-section .content-data-title{
+	font-size: 24px;
+}
+
+.technology-section .header-title{
+	margin-bottom: 80px;
+}
+
+.technology-section .container .half-area{
+	padding-right: 50px;
+}
+
+.technology-section .container .half-area:first-child{
+	border-right: solid 1px #616569;
+	padding-bottom: 50px;
+}
+
+.technology-section .container .half-area:last-child{
+	padding-left: 50px;
+	padding-right: 0px;
+}
+
+.tech-socket-content {
+    font-family: 'BoosterNextFY Regular';
+    font-size: 22px;
+    color: white;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    padding-bottom: 80px;
+}
+
+.technology-section .container > .wrap .table-wrap{
+    position: relative;
+    display: table-row;
+    width: 100%;
+}
+
+.tech-socket-img{
+    position: relative;
+    display: table-cell;
+    width: 33%;
+    vertical-align: middle;
+    padding-bottom: 80px;
+}
+
+.tech-socket-img img{
+	width: 100%;
+}
+
+.technology-section .header-sub-title{
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.third-area {
+    position: relative;
+    float: left;
+    width: 33.33%;
+    padding-bottom: 80px;
+}
+
+.blockitem-content {
+    position: relative;
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+    padding: 0px 15px;
+    font-size: 17px;
+    font-family: 'BoosterNextFY Regular';
+}
+
+.blockitem-img {
+    position: relative;
+    display: table-cell;
+    height: 50px;
+    vertical-align: middle;
+    width: auto;
+}
+
+.blockitem-img img {
+    height: 100%;
 }

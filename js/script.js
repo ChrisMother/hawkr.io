@@ -9,6 +9,7 @@ jQuery(document).ready(function(){
       singleItem:true,
       pagination : false,
       navigation: false,
+      autoHeight : true,
       afterMove: function(data){
       	jQuery(".feature-section").removeClass(box_item );
       	box_item_index = this.currentItem;
@@ -20,6 +21,7 @@ jQuery(document).ready(function(){
 
       }});
 	owl = $("#feature-slider").data('owlCarousel');
+
 });
 
 function gotoFeature(ind ){
