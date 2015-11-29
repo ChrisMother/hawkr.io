@@ -242,7 +242,7 @@
 	/*margin-top: 42px;*/
 	color: white;
 	font-family: 'BoosterNextFY Light';
-	font-size: 48px;
+	font-size: 35px;
 	margin-bottom: 30px;
 }
 
@@ -526,4 +526,86 @@ a.tm-link {
 
 .blockitem-img img {
     height: 100%;
+}
+
+.try-api-box .content-data-value{
+	padding-left: 0px;
+}
+
+.technology-section .container .try-api-box .half-area:first-child{
+	    border-right: none;
+}
+
+.try-api-box .feature-content-image{
+	padding-bottom: 80px;
+}
+
+.enquery-section{
+    padding: 100px 0px;
+    background: url(../images/Enquiry_Background.svg);
+    background-size: 100% 300%;
+    width: 100%;
+    height: 300%;
+    background-color: #25c5da;
+    background-position-y: 200%;
+    background-position-x: 200%;
+    font-family: "BoosterNextFY Medium";
+}
+
+.enquery-wrap{
+    text-align: center;
+    position: relative;
+    height: 57px;
+}
+.enquery-wrap img{
+	display: inline-block;
+    line-height: 57px;
+    vertical-align: top;
+}
+.enquery-text{
+	display: inline-block;
+    font-size: 48px;
+    color: white;
+    line-height: 57px;
+    text-transform: uppercase;
+    margin-left: 40px;
+    height: 57px;
+}
+
+.footer-seciton{
+	padding: 100px 0px;
+	background: white;
+}
+
+.copyright-text{
+	font-family: "BoosterNextFY Regular";
+	font-size: 21px;
+	color: #69656a;
+}
+
+.half-area .wrap {
+    font-family: "BoosterNextFY Bold";
+    font-size: 21px;
+    color: #333;
+    position: relative;
+    display: table-row;
+}
+
+.half-area .wrap div {
+    position: relative;
+    display: table-cell;
+    padding: 0px 5px;
+}
+
+.half-area .wrap .phone-text{
+	padding-right: 20px;
+}
+
+.technology-section .container > .wrap.try-api-box{
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.footer-seciton br{
+	display: none;
 }
