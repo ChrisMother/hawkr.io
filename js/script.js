@@ -21,7 +21,39 @@ jQuery(document).ready(function(){
 
       }});
 	owl = $("#feature-slider").data('owlCarousel');
+      jQuery(".navbar-nav a").click(function(){
+            $.scrollTo(document.getElementById(jQuery(this).attr("data-href")), 1500 );
+      });
+      
+      jQuery(".contact-us-btn").click(function(){
+            jQuery(".modal-back").css("display", "block" );
+            jQuery(".contactus-section").css("display", "block" );
+            jQuery(".modal-back").animate({opacity: 1}, 500, function(){
+            });
+            jQuery(".contactus-section").animate({opacity: 1}, 500, function(){                  
+            });
+      });
 
+      jQuery(".close-btn").click(function(){
+            jQuery(".modal-back").animate({opacity: 0}, 500, function(){
+                  jQuery(".modal-back").css("display", "none" );
+            });
+            jQuery(".contactus-section").animate({opacity: 0}, 500, function(){
+                  jQuery(".contactus-section").css("display", "none" );
+            });
+      });
+
+      jQuery(".contactus-section").click(function(event){
+            event.stopPropagation() ;
+            if (jQuery(event.target).hasClass("contactus-section" )){
+                  jQuery(".modal-back").animate({opacity: 0}, 500, function(){
+                        jQuery(".modal-back").css("display", "none" );
+                  });
+                  jQuery(".contactus-section").animate({opacity: 0}, 500, function(){
+                        jQuery(".contactus-section").css("display", "none" );
+                  });
+            }            
+      });
 });
 
 function gotoFeature(ind ){

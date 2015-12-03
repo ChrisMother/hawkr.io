@@ -395,6 +395,16 @@ a.tm-link {
 	margin: 0px auto;
 }
 
+.clients-logos div img:hover{
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;		
+}
+
 .clients-logos div{
 	position: relative;
     display: table-cell;
@@ -406,6 +416,10 @@ a.tm-link {
 .clients-logos div img{
     max-height: 100px;
     max-width: 80%;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */	  
+	cursor: pointer;  
 }
 
 .clients-logos{
@@ -608,4 +622,122 @@ a.tm-link {
 
 .footer-seciton br{
 	display: none;
+}
+
+.modal-back{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(37, 182, 201, 0.7);
+	/*-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;	*/
+	display: none;
+	opacity: 0;
+}	
+
+.contactus-section{
+	position: absolute;
+    z-index: 111;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;   
+	display: none;
+	opacity: 0;
+}
+
+.contactus-section form{
+	position: absolute;
+    width: 640px;
+    margin-left: -320px;
+    left: 50%;
+    top: 100px;
+    background-color: white;
+    padding: 60px;
+    border-radius: 5px;
+}
+
+.contactus-section .close-btn{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;	
+}
+
+.contactus-section .close-btn:hover{
+	margin-left: 1px;
+	margin-top: 1px;
+}
+
+.contactus-title{
+	font-family: "BoosterNextFY Light";
+	font-size: 38px;
+}
+
+.contactus-subtitle{
+	font-family: "BoosterNextFY Light";
+	font-size: 22px;
+	color: #4c4c4c;
+}
+
+.contactus-item, .contactus-subtitle{
+	margin-bottom: 25px;
+}
+
+.contactus-item label{
+	width: 100%;
+	position: relative;
+	text-transform: uppercase;
+	font-family: "BoosterNextFY Light";
+	font-size: 16px;
+}
+
+.contactus-item textarea, .contactus-item input{
+    font-size: 16px;
+    font-family: "BoosterNextFY Light";
+    width: 100%;
+    position: relative;
+    display: block;
+    color: #4c4c4c;
+    border: none;
+    border-bottom: solid 1px #dcdcdc;
+    height: 45px;
+    text-indent: 5px;
+    outline: 0;
+}
+
+.contactus-item input:focus{
+	border-bottom: solid 2px #dcdcdc;
+}
+
+.contactus-item textarea{
+	height: 120px;
+	border:; solid 1px #dcdcdc;
+}
+
+.contactus-item button{
+    background: #25c5da;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "BoosterNextFY Light";
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+}
+
+.contactus-item button:hover{
+	font-weight: bold;
 }

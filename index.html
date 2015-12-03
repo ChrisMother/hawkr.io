@@ -31,7 +31,7 @@
   <script src="js/html5shiv.min.js"></script>
   <script src="js/respond.min.js"></script>
 <![endif]-->
-
+<script src="js/jquery.scrollTo.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </head>
@@ -47,15 +47,18 @@
 				<span class="icon-bar"></span>
 			  </button>
 			  <a class="navbar-logo" href="#">
-				<img src="images/logo.png" class="logo-img">
+				<img src="images/logo.svg" class="logo-img">
 			  </a>
 			</div>
 			<div id="navbar" class="collapse navbar-collapse">
 			  <ul class="nav navbar-nav">
-				<li><a href="javascript:;">FEATURES</a></li>
-				<li><a href="javascript:;">TECH</a></li>
-				<li><a href="javascript:;">CLIENTS</a></li>
-				<li class="active"><a href="javascript:;">CONTACT US</a></li>
+				<!--<li><a href="#feature-section">FEATURES</a></li>
+				<li><a href="#technology-section">TECH</a></li>
+				<li><a href="#clients-section">CLIENTS</a></li>-->
+				<li><a href="#" data-href="feature-section">FEATURES</a></li>
+				<li><a href="#" data-href="technology-section">TECH</a></li>
+				<li><a href="#" data-href="clients-section">CLIENTS</a></li>
+				<li class="active"><a href="javascript:;" class="contact-us-btn">CONTACT US</a></li>
 			  </ul>
 			</div><!--/.nav-collapse -->
 		  </div>
@@ -67,7 +70,7 @@
 						<img src="images/Header_Image_Retina.png" class="header-image"/>
 						<h1 class="header-title">advanced vending machine technonlogy</h1>
 						<div class="header-sub-title">We enable vending manufacturers and operators to take full advantage of web connected machines</div>
-						<div class="line-object"/>
+						<div class="line-object"></div>
 					</div>
 				</div>
 				<div class="row">
@@ -133,8 +136,8 @@
 			</div>
 		</div>
 	</div>
-	
-	<div class="feature-section flexibility-box">
+
+	<div class="feature-section flexibility-box" id="feature-section">
 		<div class="container">
 			<h1 class="header-title">features</h1>
 			<div class="feature-category">
@@ -183,7 +186,7 @@
 						</div>
 						<div class="half-area clearfix">
 							<div class="feature-content-image">
-								<img src="images/Flexibility_Image.svg"/>
+								<img src="images/Flexibility_Image.png" onerror="this.onerror=null; this.src='Flexibility_Image.png'">
 							</div>
 						</div>
 					</div>
@@ -231,7 +234,7 @@
 						</div>
 						<div class="half-area clearfix">
 							<div class="feature-content-image">
-								<img src="images/API_Image.svg"/>
+								<img src="images/API_Image.png" onerror="this.onerror=null; this.src='API_Image.png'">
 							</div>
 						</div>
 					</div>
@@ -300,7 +303,7 @@
 		</div>
 	</div>
 
-	<div class="clients-section">
+	<div class="clients-section" id="clients-section">
 		<div class="container">
 			<h1 class="header-title">our clients</h1>
 			<div class="header-sub-title">We're honoured to help a great selection of companies </div>
@@ -362,16 +365,16 @@
 
 			<div class="clients-logos clearfix" id="clients-logos">
 				<div class="wrap">
-					<div class="clearfix"><img src="images/pwc-logo.png"></div>
-					<div class="clearfix"><img src="images/aramark-logo.png"></div>
-					<div class="clearfix"><img src="images/nhs-logo.png"></div>
-					<div class="clearfix"><img src="images/bp-logo.png"></div>
+					<div class="clearfix"><img src="images/pwc-logo-colored.png"></div>
+					<div class="clearfix"><img src="images/aramark-logo-colored.png"></div>
+					<div class="clearfix"><img src="images/nhs-logo-colored.png"></div>
+					<div class="clearfix"><img src="images/bp-logo-colored.png"></div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="technology-section">
+	<div class="technology-section" id="technology-section">
 		<div class="container clearfix">
 			<h1 class="header-title">technology</h1>
 			<div class="wrap clearfix">
@@ -473,14 +476,15 @@
 				</div>
 				<div class="half-area">
 					<div class="feature-content-image">
-						<img src="images/apiscreen.png"/>
+						<!--<img src="images/apiscreen.png"/>-->
+						<iframe src="//api.apiembed.com/?source=https://apiembed.com/sample.json&targets=all" frameborder="0" scrolling="no" width="100%" height="350" seamless></iframe>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="enquery-section">
+	<div class="enquery-section" id="enquery-section">
 		<div class="enquery-content">
 			<div class="enquery-wrap">
 				<img src="images/enquiry_icon.svg">
@@ -489,7 +493,7 @@
 		</div>
 	</div>
 
-	<div class="footer-seciton">
+	<div class="footer-seciton" id="footer-section">
 		<div class="container">
 			<div class="wrap clearfix">
 				<div class="half-area clearfix">
@@ -505,6 +509,36 @@
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="modal-back" id="modal-back">
+	</div>
+
+	<div class="contactus-section" id="contactus-section">
+		<form>
+			<img src="images/close.png" class="close-btn"/>
+			<h1 class="contactus-title">Contact Us</h1>
+			<div class="contactus-subtitle">Would you like more info about our technology or are you interested in implementing it?</div>
+			<div class="contactus-item">
+				<label for="contact-name">your name</label>
+				<input id="contact-name" placeholder="Type your name here"/>
+			</div>
+			<div class="contactus-item">
+				<label for="contact-address">email address</label>
+				<input id="contact-address" placeholder="Type your email address"/>
+			</div>
+			<div class="contactus-item">
+				<label for="contact-mobile">mobile number</label>
+				<input id="contact-mobile" placeholder="Type number here"/>
+			</div>
+			<div class="contactus-item">
+				<label for="contact-name">your message</label>
+				<textarea></textarea>
+			</div>
+			<div class="contactus-item">
+				<button type="submit">submit message</button>
+			</div>
+		</form>
 	</div>
 
 	</body>
