@@ -67,8 +67,9 @@ jQuery(document).ready(function(){
 
       jQuery(".contact-us-btn").click(function(){
             jQuery(".modal-back").css("display", "block" );
-            jQuery(".contactus-form").css("bottom", "initial" );
-            jQuery(".contactus-form").css("top", "100px" );
+            //jQuery(".contactus-form").css("bottom", "initial" );
+            //jQuery(".contactus-form").css("top", "100px" );
+            jQuery(window).scrollTo(0 );
             jQuery(".contactus-form").css("display", "block" );
             jQuery(".modal-back").animate({opacity: 1}, 500, function(){});
             jQuery(".contactus-form").animate({opacity: 1}, 500, function(){});
@@ -76,8 +77,9 @@ jQuery(document).ready(function(){
 
       jQuery(".enquery-section").click(function(){
             jQuery(".modal-back").css("display", "block" );
-            jQuery(".contactus-form").css("bottom", (-1) * parseInt(parseInt(jQuery("body").height()) - parseInt(jQuery(".contactus-form").height())  - 50) + "px" );
-            jQuery(".contactus-form").css("top", "initial" );
+            //jQuery(".contactus-form").css("bottom", (-1) * parseInt(parseInt(jQuery("body").height()) - parseInt(jQuery(".contactus-form").height())  - 50) + "px" );
+            //jQuery(".contactus-form").css("top", "initial" );
+            jQuery(window).scrollTo(0 );
             jQuery(".contactus-form").css("display", "block" );
             jQuery(".modal-back").animate({opacity: 1}, 500, function(){});
             jQuery(".contactus-form").animate({opacity: 1}, 500, function(){});
