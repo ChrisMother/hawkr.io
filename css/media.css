@@ -20,18 +20,18 @@
 
 	.in-de-block div {
 	    padding-right: 0px;
-	}	
+	}
 	.in-de-content{
 		padding-right: 20px;
 	}
 
 	.feature-content-data {
 	    padding-right: 10%;
-	}	
+	}
 
 	.clients-section .clients-content-data {
 	    padding-right: 30px;
-	}	
+	}
 
 	.clients-testimonial .wrap{
 		font-size: 20px;
@@ -79,19 +79,19 @@
 
 	.half-area{
 		width: 100%;
-	}	
+	}
 
 	.line-object{
    		margin: 70px auto 70px auto;
 	}
 
 	.header-title{
-		margin-top: 70px;
+		margin-top: 0px;
 	}
 
 	.in-de-block div {
 	    padding-bottom: 15px;
-	}	
+	}
 
 	.container{
 		width: 695px;
@@ -124,7 +124,7 @@
 	.technology-section .container .half-area:last-child {
 	    padding-left: 0px;
 	    padding-right: 0px;
-	}	
+	}
 
 	.tech-socket-content{
 		font-size: 20px;
@@ -149,7 +149,7 @@
 		top: 15px;
 		cursor: pointer;
 		font-weight: bold;
-		cursor: pointer;	
+		cursor: pointer;
 	}
 
 	a.tm-link {
@@ -159,11 +159,11 @@
 	    width: 100%;
 	    display: block;
 	    margin-left: 0px;
-	}	
+	}
 	.top-section .navbar-nav{
 		margin-top: 0px;
 		float: initial;
-	}	
+	}
 
 	.navbar-toggle{
 		margin-top: 40px;
@@ -175,7 +175,7 @@
 
 	.container{
 		width: calc(100% - 30px);
-	}	
+	}
 
 	.tech-socket-content {
 	    font-size: 18px;
