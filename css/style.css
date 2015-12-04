@@ -233,7 +233,7 @@ body{
     margin: 0px auto;
 }
 
-.feature-content-image img{
+.feature-content-image img, .feature-content-image iframe{
 	max-width: 95%;
 }
 
