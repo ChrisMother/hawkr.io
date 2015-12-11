@@ -18,7 +18,7 @@ if (filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL))
 }
 else
 {
-	$message->setFrom(array("chris@hawkr.io", "Chris Davison"));
+	$message->setFrom(array("chris@hawkr.io" => "Chris Davison"));
 }
 
 $body = '<p>Hey Gaffer,</p><p>Someone just contacted us from the Hawkr website.</p><p>Here are the details:</p>';
