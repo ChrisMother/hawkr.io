@@ -6,7 +6,7 @@ $transport = Swift_SmtpTransport::newInstance('mail.gandi.net', 587);
 $mailer = Swift_Mailer::newInstance($transport);
 
 $transport->setUsername('chris@hawkr.io');
-$transport->setPassword(file_get_contents('.emailpass'));
+$transport->setPassword(trim(file_get_contents('.emailpass')));
 
 $message = Swift_Message::newInstance();
 $message->setSubject("Hawkr Contact Form");
@@ -22,7 +22,7 @@ $body .= '<p><b>Message:</b> ' . $_REQUEST['message'] . '</p>';
 $message->addPart($body, 'text/html');
 $result = $mailer->send($message);
 
-if( ! $result)
+if ($result)
 {
 	header("Location: index.html?success");
 }
