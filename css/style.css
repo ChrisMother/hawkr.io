@@ -238,7 +238,8 @@ body{
 }
 
 .feature-content-image iframe{
-    max-width: 95%;
+    max-width: 100%;
+    width: 100px;
     overflow: hidden;
 }
 
