@@ -1,3 +1,6 @@
+body{
+	overflow-x: hidden;
+}
 .top-section{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f242a+0,36567f+100 */
 	background: #1f242a; /* Old browsers */
