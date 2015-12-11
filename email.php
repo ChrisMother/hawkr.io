@@ -10,8 +10,16 @@ $transport->setPassword(trim(file_get_contents('.emailpass')));
 
 $message = Swift_Message::newInstance();
 $message->setSubject("Hawkr Contact Form");
-$message->setFrom(array($_REQUEST['email'] => $_REQUEST['name']));
 $message->setTo(array("chris@hawkr.io" => "Chris Davison"));
+
+if (filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL))
+{
+	$message->setFrom(array($_REQUEST['email'] => $_REQUEST['name']));
+}
+else
+{
+	$message->setFrom(array("chris@hawkr.io", "Chris Davison"));
+}
 
 $body = '<p>Hey Gaffer,</p><p>Someone just contacted us from the Hawkr website.</p><p>Here are the details:</p>';
 $body .= '<p><b>Name:</b> ' . $_REQUEST['name'] . '</p>';
