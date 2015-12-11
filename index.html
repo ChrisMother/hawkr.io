@@ -66,7 +66,14 @@
 		<div class="container">
 			<div class="top-section-block">
 				<div class="row">
-					<div class="col-md-12">
+					<div class="col-md-12" id="focus">
+						<script>
+							if (window.location.search.substring(1) == "success") {
+								$("#focus").append('<div class="header-sub-title">Thanks for contacting us, we will be in touch soon</div>');
+							} else if (window.location.search.substring(1) == "fail") {
+								$("#focus").append('<div class="header-sub-title">Unfortunately, the email did not work, please give us a call</div>');
+							}
+						</script>
 						<h1 class="header-title">advanced vending machine technology</h1>
 						<div class="header-sub-title">We enable vending manufacturers and operators to take full advantage of web connected machines</div>
 						<img src="images/Header_Image_Retina.png" class="header-image"/>
@@ -503,28 +510,32 @@
 	</div>
 
 	<!--<div class="contactus-section" id="contactus-section">-->
-	<form class="contactus-form" id="contactus-form">
+	<form class="contactus-form" id="contactus-form" action="email.php" method="post">
 		<img src="images/close.png" class="close-btn"/>
 		<h1 class="contactus-title">Contact Us</h1>
 		<div class="contactus-subtitle">Would you like more info about our technology or are you interested in implementing it?</div>
 		<div class="contactus-item">
 			<label for="contact-name">your name</label>
-			<input id="contact-name" placeholder="Type your name here"/>
+			<div class="contact-form-alert">Input Your name, Please</div>
+			<input id="contact-name" name="name" placeholder="Type your name here"/>
 		</div>
 		<div class="contactus-item">
 			<label for="contact-address">email address</label>
-			<input id="contact-address" placeholder="Type your email address"/>
+			<div class="contact-form-alert">Input Email Address, Please</div>
+			<input id="contact-address" name="email" placeholder="Type your email address"/>
 		</div>
 		<div class="contactus-item">
 			<label for="contact-mobile">mobile number</label>
-			<input id="contact-mobile" placeholder="Type number here"/>
+			<div class="contact-form-alert">Input Mobile Number, Please</div>
+			<input id="contact-mobile" name="mobile" placeholder="Type number here"/>
 		</div>
 		<div class="contactus-item">
-			<label for="contact-name">your message</label>
-			<textarea></textarea>
+			<label for="contact-message">your message</label>
+			<div class="contact-form-alert">Input Your Message, Please</div>
+			<textarea id="contact-message" name="message"></textarea>
 		</div>
 		<div class="contactus-item">
-			<button type="submit">submit message</button>
+			<button type="button" id="contact-form-submit">submit message</button>
 		</div>
 	</form>
 	<!--</div>-->
@@ -533,10 +544,10 @@
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
+
 	  ga('create', 'UA-71103510-1', 'auto');
 	  ga('send', 'pageview');
-	
+
 	</script>
 	</body>
 </html>
