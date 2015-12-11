@@ -1,6 +1,3 @@
-body{
-	overflow-x: hidden;
-}
 .top-section{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f242a+0,36567f+100 */
 	background: #1f242a; /* Old browsers */
@@ -233,8 +230,13 @@ body{
     margin: 0px auto;
 }
 
-.feature-content-image img, .feature-content-image iframe{
+.feature-content-image img{
 	max-width: 95%;
+}
+
+.feature-content-image iframe{
+    max-width: 95%;
+    overflow: hidden;
 }
 
 .feature-content-data{
@@ -770,4 +772,11 @@ a.tm-link {
 
 .enquery-section{
     cursor: pointer;
+}
+
+.contact-form-alert{
+    color: red;
+    font-size: 12px;
+    display: none;
+    font-family: "BoosterNextFY Regular";
 }
