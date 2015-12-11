@@ -25,45 +25,33 @@ jQuery(document).ready(function(){
             $.scrollTo(document.getElementById(jQuery(this).attr("data-href")), 1500 );
       });
       
-      /*jQuery(".contact-us-btn").click(function(){
-            jQuery(".modal-back").css("display", "block" );
-            jQuery(".contactus-section").css("display", "block" );
-            jQuery(".modal-back").animate({opacity: 1}, 500, function(){
-            });
-            jQuery(".contactus-section").animate({opacity: 1}, 500, function(){                  
-            });
+       jQuery(".contactus-item input, .contactus-item textarea").keypress(function(){
+            jQuery(this).parent().find(".contact-form-alert").css("display", "none" );
+       });
+
+      jQuery("#contact-form-submit").click(function(){
+            // validation
+            if (jQuery("#contact-name").val() == "" ){
+                  jQuery("#contact-name").parent().find(".contact-form-alert").css("display", "block" );
+                  return;
+            }
+            if (jQuery("#contact-address").val() == "" ){
+                  jQuery("#contact-address").parent().find(".contact-form-alert").css("display", "block" );      
+                  return;
+            }
+
+            if (jQuery("#contact-mobile").val() == "" ){
+                  jQuery("#contact-mobile").parent().find(".contact-form-alert").css("display", "block" );      
+                  return;
+            }
+
+            if (jQuery("#contact-message").val() == "" ){
+                  jQuery("#contact-message").parent().find(".contact-form-alert").css("display", "block" );      
+                  return;
+            }
+
+            jQuery("#contactus-form").submit();
       });
-
-      jQuery(".enquery-section").click(function(){
-            jQuery(".modal-back").css("display", "block" );
-            jQuery(".contactus-section form").css("bottom", jQuery(".contactus-section").height()  + 50 + "px" );
-            jQuery(".contactus-section").css("display", "block" );
-            jQuery(".modal-back").animate({opacity: 1}, 500, function(){
-            });
-            jQuery(".contactus-section").animate({opacity: 1}, 500, function(){                  
-            });
-      });      
-
-      jQuery(".close-btn").click(function(){
-            jQuery(".modal-back").animate({opacity: 0}, 500, function(){
-                  jQuery(".modal-back").css("display", "none" );
-            });
-            jQuery(".contactus-section").animate({opacity: 0}, 500, function(){
-                  jQuery(".contactus-section").css("display", "none" );
-            });
-      });
-
-      jQuery(".modal-back").click(function(event){
-            event.stopPropagation() ;
-            if (jQuery(event.target).hasClass("modal-back" )){
-                  jQuery(".modal-back").animate({opacity: 0}, 500, function(){
-                        jQuery(".modal-back").css("display", "none" );
-                  });
-                  jQuery(".contactus-section").animate({opacity: 0}, 500, function(){
-                        jQuery(".contactus-section").css("display", "none" );
-                  });
-            }            
-      });*/
 
       jQuery(".contact-us-btn").click(function(){
             jQuery(".modal-back").css("display", "block" );
