@@ -518,6 +518,18 @@ a.tm-link {
 	width: 100%;
 }
 
+.signage-socket-img{
+    position: relative;
+    display: table-cell;
+    width: 33%;
+    vertical-align: middle;
+    padding-bottom: 80px;
+}
+
+.signage-socket-img img{
+    width: 90%;
+}
+
 .technology-section .header-sub-title{
 	width: 100%;
 	margin-bottom: 50px;
