@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="62" height="18" viewBox="0 0 62 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ed5b5b;
+        stroke: #a13d3d;
+        filter: url(#inner-shadow-1);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        fill: #ede85b;
+        stroke: #bab647;
+        filter: url(#inner-shadow-2);
+      }
+
+      .cls-3 {
+        fill: #88ac27;
+        stroke: #5f781c;
+        filter: url(#inner-shadow-3);
+      }
+    </style>
+
+    <filter id="inner-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.4"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="overlay" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+    <filter id="inner-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.8"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="overlay" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+    <filter id="inner-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" in="SourceAlpha"/>
+      <feGaussianBlur result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.3"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="overlay" in2="SourceGraphic" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g>
+    <g style="fill: #ed5b5b; filter: url(#inner-shadow-1)">
+      <circle cx="9" cy="9" r="8" id="circle-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-1"/>
+    </g>
+    <use xlink:href="#circle-1" style="stroke: #a13d3d; filter: none; fill: none"/>
+    <g style="fill: #ede85b; filter: url(#inner-shadow-2)">
+      <circle cx="31" cy="9" r="8" id="circle-2" style="stroke: inherit; filter: none; fill: inherit" class="cls-2"/>
+    </g>
+    <use xlink:href="#circle-2" style="stroke: #bab647; filter: none; fill: none"/>
+    <g style="fill: #88ac27; filter: url(#inner-shadow-3)">
+      <circle cx="53" cy="9" r="8" id="circle-3" style="stroke: inherit; filter: none; fill: inherit" class="cls-3"/>
+    </g>
+    <use xlink:href="#circle-3" style="stroke: #5f781c; filter: none; fill: none"/>
+  </g>
+</svg>
