@@ -60,7 +60,7 @@ body{
 
 .header-sub-title{
 	text-align: center;
-    width: 65%;
+    width: 70%;
     color: white;
     position: relative;
     display: block;
@@ -73,8 +73,8 @@ body{
 }
 
 .top-section-block{
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .line-object{
@@ -146,7 +146,7 @@ body{
 	transition: all 0.5s ease;
 }
 
-.flexibility-box{
+.apitech-box{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25c7d7+0,25d8b5+100 */
 	background: #25c7d7; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #25c7d7 0%, #25d8b5 100%); /* FF3.6-15 */
@@ -155,7 +155,7 @@ body{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25c7d7', endColorstr='#25d8b5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
-.apitech-box{
+.flexibility-box{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4466b+0,f07f52+100 */
 	background: #f4466b; /* Old browsers */
 	background: -moz-linear-gradient(-45deg, #f4466b 0%, #f07f52 100%); /* FF3.6-15 */
@@ -174,10 +174,10 @@ body{
 }
 
 .flexibility-box .category-item.active{
-	color: #25c7d7;
+	color: #f4466b;
 }
 .apitech-box .category-item.active{
-	color: #f4466b;
+	color: #25c7d7;
 }
 .webconsole-box .category-item.active{
 	color: #5caeed;
@@ -464,8 +464,6 @@ a.tm-link {
     position: relative;
     display: block;
     margin: 0px auto;
-    border-bottom: solid 1px #616569;
-    margin-bottom: 80px;
 }
 
 .technology-section .content-data-title{
@@ -516,18 +514,6 @@ a.tm-link {
 
 .tech-socket-img img{
 	width: 100%;
-}
-
-.signage-socket-img{
-    position: relative;
-    display: table-cell;
-    width: 33%;
-    vertical-align: middle;
-    padding-bottom: 80px;
-}
-
-.signage-socket-img img{
-    width: 90%;
 }
 
 .technology-section .header-sub-title{
